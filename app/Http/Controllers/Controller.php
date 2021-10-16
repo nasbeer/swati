@@ -1,45 +1,21 @@
-<?php namespace App\Http\Controllers;
+<?php 
+namespace App\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
-use GuzzleHttp\Client;
-use GuzzleHttp\Exception\RequestException;
-use Guzzle\Http\Exception\ClientErrorResponseException;
-use GuzzleHttp\Exception\ServerException;
-use GuzzleHttp\Exception\BadResponseException;
+
 
 class Controller extends BaseController {
 
-	function __construct() {
-		$this->client=new \GuzzleHttp\Client();
-	}
+	// function __construct() {
+	// 	$this->client=new \GuzzleHttp\Client();
+	// }
 
 	use AuthorizesRequests,
 	DispatchesJobs,
 	ValidatesRequests;
 
-	public function index(Request $request){
-
-		$apiKey='pubkey-e8N8Z6eGMW1Rc4G9H3Y1MmF7iph9H0';
-		$url='http://swati.centraqa.com/api/checkout/products/';
-
-		$client->request('POST', 'http://swati.centraqa.com/api/checkout/products/', [
-			'headers' => [
-				'Access-Control-Allow-Origin' => 'http://localhost:1229',
-				//"APIKey" => $apiKey,
-				"X-Centra-Request-ID" => "1_678fff3657cd54e077a2e81123f79762",
-				"X-Correlation-ID"=> "centra_1_678fff3657cd54e077a2e81123f79762",
-
-			]
-		]);
-		$response=$this->client->get($url);
-		$results=$response->getBody();
-		$results=json_decode($results);
-		print_r($results);
-		return response()->json($results);
-	}
-
-
+	
 }

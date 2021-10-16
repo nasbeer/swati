@@ -10,14 +10,14 @@
         content="Shop online coloured contact lenses in blue, green, grey, and brown shades. Vegan &amp; Cruelty-free eyeliner and lashes and other cosmetics products. ✓ Worldwide shipping ✓100% authentic ✓Shop now! Design in Sweden 🇸🇪">
     <base href="">
 
-    <link rel="canonical" href="index.html">
-    <link rel="alternate" hreflang="en" href="index.html" />
+    <link rel="canonical" href="#">
+    <link rel="alternate" hreflang="en" href="#" />
     <link rel="alternate" hreflang="de-de" href="https://www.swati.com/de/" />
     <link rel="alternate" hreflang="fr-fr" href="https://www.swati.com/fr/" />
     <link rel="alternate" hreflang="it-it" href="https://www.swati.com/it/" />
     <link rel="alternate" hreflang="sv-se" href="https://www.swati.com/se/" />
     <link rel="alternate" hreflang="en-in" href="https://www.swati.com/in/" />
-    <link rel="alternate" hreflang="x-default" href="index.html">
+    <link rel="alternate" hreflang="x-default" href="#">
 
     <link rel="preload" as="font" href="https://www.swati.com/assets/fonts/gorditaregular.woff2"
         crossorigin="anonymous">
@@ -39,7 +39,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="https://www.swati.com/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://www.swati.com/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://www.swati.com/favicon-16x16.png">
-    <link rel="manifest" href="https://www.swati.com/site.webmanifest">
+    <!-- <link rel="manifest" href="https://www.swati.com/site.webmanifest"> -->
     <link rel="mask-icon" href="https://www.swati.com/safari-pinned-tab.svg" color="#292b2c">
     <meta name="msapplication-TileColor" content="#292b2c">
     <meta name="theme-color" content="#f9f9f9">
@@ -324,7 +324,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="index.html">
+                        <li><a href="#">
                                 <div class="swati-logo" style="height: 32px;width: 180px;background-position: bottom;">
                                 </div><span class="sr-only">SWATI Cosmetics Logo</span>
                             </a></li>
@@ -690,7 +690,7 @@
                     </ul>
                     <div class="media-template d-none">
                         <div class="media">
-                            <img class="mr-3" src="index.html" data-bind="src:product.media.thumb[0]" alt="Product">
+                            <img class="mr-3" src="#" data-bind="src:product.media.thumb[0]" alt="Product">
                             <div class="media-body">
                                 <div class="row">
                                     <div class="col-8 media-height">
@@ -861,7 +861,7 @@
                                 </div>
                             </div>
                         </div>
-                        <form action="index.html#" id="personaliseForm" name="personalise-form"
+                        <form action="##" id="personaliseForm" name="personalise-form"
                             class="row pt-3 text-left">
                             <div class="col-12">
                                 <label for="globalEyeColor" class="sr-only">Select your eye colour</label>
@@ -1229,7 +1229,7 @@
                                 <p>Subscribe to our newsletters and stay up-to-date with new products and exclusive
                                     offers.</p>
                             </div>
-                            <form action="index.html#" class="sign-up-card-form" id="signUpCardForm">
+                            <form action="##" class="sign-up-card-form" id="signUpCardForm">
                                 <div class="input-group mb-2 input-icon  input-group-default">
                                     <label for="-email-" class="sr-only">Enter Your Email</label>
                                     <input id="-email-" type="email" required name="email" autocomplete="email"
@@ -1392,7 +1392,7 @@
                     <div class="h5">Join the SWATI Community</div>
                     <p class="mb-4">Stay in the loop! We give you news, campaigns, events as well as tips &amp; tricks.
                     </p>
-                    <form action="index.html#" id="footerForm" name="footer-sign-up" class="flex-grow-1 fadeIn">
+                    <form action="##" id="footerForm" name="footer-sign-up" class="flex-grow-1 fadeIn">
                         <div class="input-group mb-2 input-icon bg-white input-group-sm">
                             <label for="footerEmail" class="sr-only">Enter Your Email</label>
                             <input id="footerEmail" type="email" required name="email" autocomplete="email"
@@ -1514,7 +1514,7 @@
                         <div class="lead font-weight-normal" style="margin: 30px auto 50px!important;">
                             <p>Our newsletter includes the latest news and unique offers.</p>
                         </div>
-                        <form action="index.html#" class="promotion-modal-form" id="news-letter-form-0">
+                        <form action="##" class="promotion-modal-form" id="news-letter-form-0">
                             <div class="input-group mb-2 input-icon  input-group-default">
                                 <label for="news-letter-email-0" class="sr-only">Enter Your Email</label>
                                 <input id="news-letter-email-0" type="email" required name="email" autocomplete="email"
@@ -1576,7 +1576,7 @@
                         <div class="lead font-weight-normal" style="margin: 30px auto 50px!important;">
                             <p><strong>Special discounts</strong> for our first customers.</p>
                         </div>
-                        <form action="index.html#" class="promotion-modal-form" id="news-letter-form-1">
+                        <form action="##" class="promotion-modal-form" id="news-letter-form-1">
                             <div class="input-group mb-2 input-icon  input-group-default">
                                 <label for="news-letter-email-1" class="sr-only">Enter Your Email</label>
                                 <input id="news-letter-email-1" type="email" required name="email" autocomplete="email"
