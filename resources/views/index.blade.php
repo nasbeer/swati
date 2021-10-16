@@ -1212,7 +1212,7 @@
         <section class="swati-section alternate text-center alternate" id="productCarouselSection">
             <div class="container ">
                 <h2 class="primary__title text-center mb-3">You may also like</h2>
-                <div id="getbtchashval" class="getbtchashval text-center"></div>
+               
                 <span class="clerk" data-template="@homepage-slider"></span>
             </div>
         </section>

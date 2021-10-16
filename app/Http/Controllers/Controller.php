@@ -23,7 +23,15 @@ class Controller extends BaseController {
 	public function getproducts(Request $request){
 
 		$apiKey='pubkey-e8N8Z6eGMW1Rc4G9H3Y1MmF7iph9H0';
-		$url='http://swati.centraqa.com/api/checkout/products/'. $apiKey;
+		$url='http://swati.centraqa.com/api/checkout/products/';
+
+		$client->request('POST', 'http://swati.centraqa.com/api/checkout/products/', [
+			'headers' => [
+				'Origin' => 'http://localhost:1229',
+				"APIKey" => $apiKey,
+
+			]
+		]);
 		$response=$this->client->get($url);
 		$results=$response->getBody();
 		$results=json_decode($results);
