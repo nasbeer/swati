@@ -20,7 +20,7 @@ class Controller extends BaseController {
 	DispatchesJobs,
 	ValidatesRequests;
 
-	public function getproducts(Request $request){
+	public function index(Request $request){
 
 		$apiKey='pubkey-e8N8Z6eGMW1Rc4G9H3Y1MmF7iph9H0';
 		$url='http://swati.centraqa.com/api/checkout/products/';
@@ -35,6 +35,7 @@ class Controller extends BaseController {
 		$response=$this->client->get($url);
 		$results=$response->getBody();
 		$results=json_decode($results);
+		print_r($results);
 		return response()->json($results);
 	}
 
