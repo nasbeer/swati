@@ -27,8 +27,10 @@ class Controller extends BaseController {
 
 		$client->request('POST', 'http://swati.centraqa.com/api/checkout/products/', [
 			'headers' => [
-				'Origin' => 'http://localhost:1229',
-				"APIKey" => $apiKey,
+				'Access-Control-Allow-Origin' => 'http://localhost:1229',
+				//"APIKey" => $apiKey,
+				"X-Centra-Request-ID" => "1_678fff3657cd54e077a2e81123f79762",
+				"X-Correlation-ID"=> "centra_1_678fff3657cd54e077a2e81123f79762",
 
 			]
 		]);
