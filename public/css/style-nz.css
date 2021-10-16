@@ -1,0 +1,99 @@
+.hider{
+    display: none !important;
+}
+.headtop {
+    height: 45px;
+    position:absolute;
+    margin-left: -15px !important;
+    background: #333;
+    color: #333;
+    border: 1px solid #4a4a4a;
+}
+.bg-pink{
+    background-color: #ff7b9a;
+}
+.text-pink{
+    color: #ff7b9a;
+}
+.font-weight-900{
+    font-weight: 900  !important;
+}
+.p-10{
+    padding:10px;
+}
+.text-blk{
+    color:#000  !important;
+
+}
+.text-white{
+    color:#fff;
+}
+.gridui-nz{
+    background-color: #2f3186;
+}
+.hero-description {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0px  !important;
+    padding: 10px  !important;
+    color: #fff;
+    font-size: 1.065rem;
+    text-align: center;
+    height: 220px !important;
+}
+@media only screen and (max-width: 414px) {
+    .hero-description {
+        display: block;
+        position: absolute;
+        left: 0;
+        top:50% !important;
+        right: 0;
+        bottom: 0px  !important;
+        padding: 10px  !important;
+        color: #fff;
+        font-size: 1.065rem;
+        text-align: center;
+        height: auto !important;
+    }
+  }
+.text-naz{
+    font-size:22px;
+    font-weight:600;
+    padding-top:15px !important;
+    font-family: arial !important;
+    color:#ff7b9a;
+   
+}
+.text-stroke-naz {
+    font-size:22px;
+    font-weight:600;
+    padding-right:15px;
+    padding-left:15px;
+    padding-top:15px !important;
+    font-family: arial !important;
+    color:#ff7b9a;
+    -webkit-text-fill-color:#333; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#ff7b9a;
+}
+#apply{
+    background-color: #fff !important;
+}
+#apply::placeholder {
+    text-align: center !important;
+    opacity: 1; /* Firefox */
+   
+  }
+  
+  #apply:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   /* color: red; */
+   text-align: center !important;
+  
+  }
+  
+  #apply::-ms-input-placeholder { /* Microsoft Edge */
+   /* color: red; */
+   text-align: center !important;
+  
+  }
